@@ -20,6 +20,7 @@ symbol_value = {
     "C": 3,
     "D": 2
 }
+
 def check_winnings(columns, lines, bet, values):
     winnings = 0
     winning_lines = []
@@ -61,6 +62,7 @@ def print_slot_machine(columns):
             else:
                 print(column[row], end="")
         print()
+
 def deposit():
     while True:
         amount = input("What would you like to deposit? $ ")
